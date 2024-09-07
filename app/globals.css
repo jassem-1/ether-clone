@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+.exo-light {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+}
+.exo-semibold {
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+}
+
+.exo-bold {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+}
+.background {
+  background-image: url("./assets/bg3.webp");
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keep the background fixed in place */
+}
+
+
+.neon {
+    height: 2px;
+    background-color: #0ff; /* Cyan for neon color */
+    box-shadow: 0 0 5px #00ffffbf,
+                0 0 10px rgba(0, 255, 255, 0.75),
+                0 0 20px rgba(0, 255, 255, 0.75),
+                0 0 40px #0ff,
+                0 0 80px #0ff,
+                0 0 90px #0ff;
+  }
+  .blur-background {
+    backdrop-filter: blur(5px);
+
+  }
+.scrollable::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  
+  .scrollable::-webkit-scrollbar-thumb {
+    background-color: #0ff; /* Cyan for neon color */
+    box-shadow: 0 0 5px #00ffffbf,
+               
+                0 0 80px #0ff;
+    border-radius: 10px; 
+  }
+  
+  .scrollable::-webkit-scrollbar {
+    width: 6px; 
+    height: 6px; 
+  }
+  
